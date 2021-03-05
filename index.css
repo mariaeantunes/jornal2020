@@ -1,0 +1,135 @@
+header{
+    background-color: rgb(110, 10, 6);
+    color:white;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Anton', sans-serif;
+}
+ h1{
+    text-align: center;
+    font-size: 40px;
+}
+h1:hover{
+    cursor: pointer;
+    font-size: 45px;
+    transition: 1s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+}
+nav ul :hover{
+    cursor: pointer;
+    color: yellow;
+    border-bottom-color: yellow 2px solid;
+    font-size: 20px;
+    transition: 1s;
+}
+nav ul :visited{
+    color: #017272;
+}
+.maps{
+    float: right;
+    padding: 30px;
+}
+body{
+    margin: 0px;
+    background-color: rgb(228, 189, 201);
+}
+.secao1{
+    margin: 25px;
+}
+#recente{
+    text-align: center;
+}
+main{
+    font-family: 'Quicksand', sans-serif;
+}
+.galeria{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+img{
+   padding: 25px;
+   border-radius: 20%;
+}
+#secao1{
+    padding: 45px;
+}
+.iframe{
+    float: right;
+    margin: 15px;
+    border-radius: 25px;
+}
+#secao2{
+    padding: 45px;
+}
+footer{
+    background-color: rgb(110, 10, 6);
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#secao3{
+    padding: 45px;
+}
+.img{
+    float: right;
+}
+h2:hover{
+    color: rgb(110, 10, 6);
+    font-size: 25px;
+}
+#secao3 > a:hover{
+    cursor: pointer;
+    color: yellow;
+    border-bottom-color: yellow 2px solid;
+    font-size: 20px;
+    transition: 1s;
+}
+#secao3 > a:visited{
+    color: rgb(110, 10, 6);
+    border-bottom-color: yellow 2px solid;
+}
+.noticias{
+   animation: noticia;
+   animation-duration: 3s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+}
+@keyframes noticia{
+    0%{
+        color: red;
+        letter-spacing: 2px;
+        font-size: 25px;
+    }
+    25%{
+        color: royalblue;
+        letter-spacing: 4px;
+        font-size: 27px;
+    }
+    50%{
+        color: green;
+        letter-spacing: 6px;
+        font-size: 29px;
+    }
+    100%{
+        color: rgb(247, 94, 6);
+        letter-spacing: 8px;
+        font-size: 31px;
+    }
+
+}
